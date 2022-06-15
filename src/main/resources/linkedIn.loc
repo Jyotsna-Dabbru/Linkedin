@@ -1,0 +1,21 @@
+#HomePage
+homePage.signIn=xpath!//a[contains(text(),'Sign in')]
+
+#LoginPage
+LoginPage.emailId=xpath!//input[@id='username']
+LoginPage.password=xpath!//input[@type="password"]
+LoginPage.signInUser=xpath!//button[@type='submit']
+
+#AfterLoginHomePage
+AfterLoginHomePage.userProfile=xpath!//*[text()='Jyotsna Dabbiru']
+
+#UserProfilePage
+UserProfilePage.contactInfo=xpath!//*[text()='Contact info']
+
+
+#ContactInfoPage
+ContactInfoPage.emailLabel=xpath!//*[text()='Email']
+ContactInfoPage.userEmail=xpath!//*[text()='Email']/following-sibling::div/a
+
+#SearchProfileTakeScreenshot page
+SearchProfileTakeScreenshot.getSearchBar=xpath!//input[@placeholder='Search']
